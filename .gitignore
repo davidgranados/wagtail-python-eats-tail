@@ -9,3 +9,6 @@ __pycache__/
 
 # editors
 .idea
+
+# media
+media/
