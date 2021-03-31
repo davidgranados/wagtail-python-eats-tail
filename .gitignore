@@ -1,8 +1,15 @@
 ### Python template
+
+# Django secret settings
+local.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# SQLite file, if not used
+db.sqlite3
 
 # venv
 .venv
@@ -10,5 +17,12 @@ __pycache__/
 # editors
 .idea
 
-# media
-media/
+# Translations
+*.mo
+
+# Unit test / coverage reports
+.coverage
+htmlcov/
+
+# Media files
+media/**

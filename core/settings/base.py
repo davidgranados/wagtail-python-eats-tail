@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "allauth",
     "allauth.account",
     "allauth.socialaccount",
+    "widget_tweaks",
     # Django apps
     "django.contrib.admin",
     "django.contrib.auth",
